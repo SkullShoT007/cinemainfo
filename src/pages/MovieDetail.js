@@ -19,7 +19,7 @@ export const MovieDetail = () => {
   }, [params.id])
   useEffect(() =>{
       document.title  = `${data.original_title}`;
-  }, [])
+  })
   
   return (
     <main>
@@ -49,7 +49,7 @@ export const MovieDetail = () => {
               </svg>
               <p className="ms-2 text-sm font-bold text-gray-900 dark:text-white">{data.vote_average}</p>
               <span className="w-1 h-1 mx-1.5 bg-gray-500 rounded-full dark:bg-gray-400"></span>
-              <a href="#" className="text-sm font-medium text-gray-900 underline hover:no-underline dark:text-white">{data.vote_count}</a>
+              <p className="text-sm font-medium text-gray-900 underline hover:no-underline dark:text-white">{data.vote_count}</p>
           </div>
           <p className='my-4'>
             <span className='text-bold'>Movie Runtime: </span>
