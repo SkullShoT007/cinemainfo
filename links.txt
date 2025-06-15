@@ -1,0 +1,2 @@
+Top Rated: https://api.themoviedb.org/3/movie/top_rated?api_key=532ba35cb34073c2013df40b8e5c8957
+Top Rated: https://api.themoviedb.org/3/movie/now_playing?api_key=532ba35cb34073c2013df40b8e5c8957
