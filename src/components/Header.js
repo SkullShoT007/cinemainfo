@@ -1,5 +1,5 @@
 import {Link, NavLink,  useNavigate} from 'react-router-dom';
-import Logo from '../assets/Cinema.jpg';
+import Logo from '../assets/logo.png'
 import {useEffect, useState,} from 'react';
 export const Header = () => {
   const [darkMode, setdarkMode] = useState(JSON.parse(localStorage.getItem("darkMode")) || false);
